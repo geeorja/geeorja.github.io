@@ -1,0 +1,50 @@
+#jumbotron2 {
+  margin-top: 20px
+  
+
+}
+#jumbotron2 {
+  background-image: url("http://www.aestheticamagazine.com/wp-content/uploads/2015/03/1-Symphony-jpg.jpg");
+  background-size: cover;
+}
+
+#imagelist {
+  padding-left: 20px
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+#column {
+  width: 10px
+  height: 10px
+  margin-left: 1000000px
+  float: left;
+  min-width: 25%;
+  max-width: 25%;
+  padding-right: : 10000px;
+}
+
+/* Clear floats after image containers */
+#row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#beautymaintext {
+  margin-left: 900px
+
+}
+
+#quote {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#aboutmetext {
+  font: fantasty;
+}
+
+#imageabout {
+
+}
